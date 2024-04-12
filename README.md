@@ -25,16 +25,13 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user features:
 
+![](walkthrough.gif)
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
-
-## Challenges
-
-- 
 
 ## License
 
