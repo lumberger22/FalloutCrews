@@ -39,7 +39,9 @@ const App = () => {
         <Link to="/crew"><button className="navBtn"> Explore Survivors </button></Link>
         <Link to="/new"><button className="navBtn"> Create Survivor </button></Link>
       </div>
+      <div className='content'>
         {element}
+      </div>
     </div>
 
   );
