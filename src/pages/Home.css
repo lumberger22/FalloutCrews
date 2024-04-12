@@ -7,3 +7,39 @@ body {
     padding: 0;
     text-align: center;
 }
+
+.home--page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.title {
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+    background-image: url(
+"takehiro-tomiyama-Bn1vAjQOHbg-unsplash.jpg");
+    background-repeat: repeat;
+    background-position: 0% 60%;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.description {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    max-width: 50vw;
+    margin: 10px 0px;
+}
