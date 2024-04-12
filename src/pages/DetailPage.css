@@ -1,0 +1,32 @@
+.DetailPage {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid white;
+}
+
+.detail--title {
+    font-size: 3em;
+    color: white;
+}
+
+.details {
+    display: flex;
+    align-items: flex-start;
+    gap: 15vw;
+}
+
+.back {
+    color: white;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.back:hover {
+    color: #ffc164;
+    transform: scale(1.1);
+}
