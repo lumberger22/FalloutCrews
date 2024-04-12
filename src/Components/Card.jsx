@@ -14,11 +14,18 @@ const Card = (props) =>  {
 
   return (
       <div className="Card">
-          <Link to={'edit/'+ props.id}><img className="moreButton" alt="edit button" src={more} /></Link>
-          <h2 className="name">Name: {props.name}</h2>
+        <div className='card--header'>
+          <Link to={'detailPage/' + props.id}>
+            <h2 className="name">{props.name}</h2>
+          </Link>
+          <Link to={'edit/'+ props.id}>
+            <img className="moreButton" alt="edit button" src={more} />
+          </Link>
+        </div>
+        <div className='card--content'>
           <h3 className="strength">Strength: {props.strength}</h3>
           <h3 className="health">Health: {props.health}</h3>
-          <h3 className="weapon">Weapon: {props.weapon}</h3>
+        </div>
       </div>
   );
 };
