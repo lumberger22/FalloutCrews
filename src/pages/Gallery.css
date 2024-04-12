@@ -1,3 +1,8 @@
+.Gallery--page {
+    display: flex;
+    flex-direction: column;
+}
+
 .Gallery {
     display: grid;
     grid-auto-flow: row;
@@ -6,4 +11,10 @@
     gap: 30px;
     margin: 0;
     padding: 0;
+}
+
+.gallery--title {
+    margin-top: 20vh;
+    font-size: 3em;
+    color: white;
 }

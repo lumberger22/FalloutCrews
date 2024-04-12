@@ -73,7 +73,7 @@ const EditPost = () => {
 
     return (
         <div>
-            <form>
+            <form autoComplete='off'>
                 <label htmlFor="name">Name</label> <br />
                 <input type="text" id="name" name="name" value={post.name} onChange={handleChange} /><br />
                 <br />

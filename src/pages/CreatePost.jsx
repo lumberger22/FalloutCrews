@@ -30,7 +30,7 @@ const CreatePost = () => {
 
     return (
         <div>
-            <form>
+            <form autoComplete='off'>
                 <label for="title">Name</label> <br />
                 <input type="text" id="name" name="name" onChange={handleChange} /><br />
                 <br/>
