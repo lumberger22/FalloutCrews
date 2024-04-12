@@ -5,6 +5,7 @@ import Gallery from './pages/Gallery'
 import Home from './pages/Home'
 import CreatePost from './pages/CreatePost'
 import EditPost from './pages/EditPost'
+import DetailPage from './pages/DetailPage'
 import { Link } from 'react-router-dom'
 
 
@@ -27,6 +28,10 @@ const App = () => {
     {
       path:"/new",
       element: <CreatePost />
+    },
+    {
+      path:"/crew/detailPage/:id",
+      element: <DetailPage />
     }
   ]);
 
