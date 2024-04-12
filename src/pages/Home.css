@@ -26,6 +26,7 @@ body {
     background-repeat: repeat;
     background-position: 0% 60%;
     background-size: cover;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
